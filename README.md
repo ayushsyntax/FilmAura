@@ -2,11 +2,10 @@
 FilmAura: A smart, AI-powered movie and series recommendation system that understands your taste and suggests perfectly matched films.
 
 
-Here’s a more readable version of your document, with improved formatting and structure for clarity:
 
 # 🎬 Movie Recommendation System — Cleaned Dataset
 
-A production-ready, cleaned, and feature-engineered dataset for building movie recommendation systems. This dataset is derived from raw TMDB metadata (~1.2 million movies) and transformed into a **modeling-ready format** with intelligent imputation, robust features, and optimized performance.
+A production-ready, cleaned, and feature-engineered dataset for building movie recommendation systems. This dataset is derived from raw TMDB metadata (~930,000 movies) and transformed into a **modeling-ready format** with intelligent imputation, robust features, and optimized performance.
 
 📁 **Final Output:** `movieclean.parquet`
 
@@ -14,8 +13,8 @@ A production-ready, cleaned, and feature-engineered dataset for building movie r
 
 ## 📁 Dataset Overview
 
-- **Source**: [TMDB Movies Metadata](https://www.kaggle.com/tmdb/tmdb-movie-metadata)
-- **Rows**: Approximately 1.2 million movies
+- **Source**: [TMDB Movies Dataset 2023](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/code)
+- **Rows**: Approximately 930,000 movies
 - **Cleaned & Processed**: Yes
 - **Format**: Parquet (fast, compressed, preserves data types)
 - **File**: `movieclean.parquet`
@@ -79,3 +78,4 @@ print(df.shape)
 print(df.columns)
 ```
 
+This updated document now references the new dataset source while maintaining clarity and structure.
